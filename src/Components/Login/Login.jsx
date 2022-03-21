@@ -3,6 +3,7 @@ import './index.scss';
 import LogoImg from '../../Assets/img/logo/logo.png'
 import LandingImg from '../../Assets/img/landing-page/landing-page.png'
 import {PrimaryBtn} from '../Assets/Buttons/Buttons';
+import { Link } from 'react-router-dom';
 
 export default function Login() {
   return (
@@ -30,7 +31,8 @@ export default function Login() {
                         <a className='forgot-link' href="#">Forgot password?</a>
                     </div>
                     <div className='btn-wrapper'>
-                        <PrimaryBtn text="LOGIN"/>
+                        
+                        <Link to="/students"><PrimaryBtn text="LOGIN"/></Link>
                     </div>
                     <hr className='hr-login'/>
                     {/* <p className='text-login mt-2'>or Login using</p>

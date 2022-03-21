@@ -66,7 +66,7 @@ export default function Dashboard() {
                     </div>
                   </td>
                   <td><a href="#">770236</a></td>
-                  <td><a href="#">archithitech@gmail.com</a></td>
+                  <td><Link to="/edit-student">archithitech@gmail.com</Link></td>
                   <td><span>Archit</span></td>
                   <td><span>tiwari</span></td>
                   <td><span></span></td>
@@ -126,7 +126,7 @@ export default function Dashboard() {
                     </div>
                   </td>
                   <td><a href="#">770236</a></td>
-                  <td><a href="#">archithitech@gmail.com</a></td>
+                  <td><Link to="/edit-student">archithitech@gmail.com</Link></td>
                   <td><span>Archit</span></td>
                   <td><span>tiwari</span></td>
                   <td><span></span></td>
@@ -146,7 +146,7 @@ export default function Dashboard() {
                     </div>
                   </td>
                   <td><a href="#">770236</a></td>
-                  <td><a href="#">archithitech@gmail.com</a></td>
+                  <td><Link to="/edit-student">archithitech@gmail.com</Link></td>
                   <td><span>Archit</span></td>
                   <td><span>tiwari</span></td>
                   <td><span></span></td>
