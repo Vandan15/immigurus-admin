@@ -1,0 +1,151 @@
+$base-color: #073149;
+$primary-color: #c69c6d;
+.sidebar-wrapper {
+    padding: 10px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .btn-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        svg {
+            cursor: pointer;
+        }
+    }
+    .logo-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        background-color: #FFF;
+        border-radius: 15px;
+        img {
+            height: 50px;
+            width: 60px;
+        }
+        h3 {
+            font-size: 28px;
+            margin: 0;
+            font-weight: bold;
+            color: $base-color;
+            &:hover {
+                color: $primary-color;
+                cursor: pointer;
+            }
+
+        }
+    }
+    hr {
+        border-color: #FFF;
+        margin-bottom: 35px;
+    }
+    .sub-header-text {
+        font-size: 13px;
+        color: #FFF;
+    }
+    .list-wrapper {
+        margin-top: 50px;
+        svg {
+            fill: #FFF;
+        }
+        .feature-list {
+            display: inline-block;
+            width: 100%;
+            li {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-bottom: 16px;
+                cursor: pointer;
+                .list-text {
+                    margin-left: 10px;
+                    color: #FFF;
+                    font-size: 14px;
+                    &:hover {
+                        color: $primary-color;
+                        cursor: pointer;
+                    }
+                }
+                .bigger-list-text {
+                    color: $base-color;
+                    font-size: 30px;
+                    background-color: #FFF;
+                    height: 32px;
+                    width: 32px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover {
+                        color: $primary-color;
+                        cursor: pointer;
+                    }
+                }
+                .green-notification {
+                    height: 20px;
+                    width: 20px;
+                    background: greenyellow;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                    font-weight: bold;
+                    margin-left: auto;
+                }
+                .orange-notification {
+                    height: 20px;
+                    width: 20px;
+                    background: orange;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                    font-weight: bold;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+    .profile-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #e7e7e7;
+        border-radius: 15px;
+        padding: 10px;
+        cursor: pointer;
+        svg {
+            fill: #FFF;
+        }
+        &:hover {
+            background-color: #FFF;
+            .profile-text {
+                color: $base-color !important;
+            }
+            .email-text {
+                color: $base-color !important;
+            }
+            svg {
+                fill: $base-color;
+            }
+        }
+        .info-wrapper {
+            display: flex;
+            flex-direction: column;
+            .profile-text {
+                font-size: 14px;
+                font-weight: bold;
+                color: #FFF;
+            }
+            .email-text {
+                font-size: 12px;
+                color: #FFF;
+            }
+        }
+    }
+}

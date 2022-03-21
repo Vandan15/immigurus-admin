@@ -1,0 +1,181 @@
+.login-wrapper .landing-image-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.login-wrapper .landing-image-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.login-wrapper .landing-image-wrapper .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  background-color: #073149;
+}
+
+.login-wrapper .form-wrapper {
+  height: 100%;
+  background-color: #e7e7e7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 110px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-wrapper .form-wrapper .text-login {
+  margin: 40px 0px 30px;
+}
+
+.login-wrapper .form-wrapper .forgot-link {
+  text-decoration: underline;
+  text-align: right;
+  font-size: 13px;
+  color: #073149;
+}
+
+.login-wrapper .form-wrapper .text-sign-up {
+  color: #073149;
+  margin-top: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+
+.login-wrapper .form-wrapper .hr-login {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.login-wrapper .form-wrapper .input-wrapper {
+  background: #f9f9f9;
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #e7e7e7;
+}
+
+.login-wrapper .form-wrapper .input-wrapper input {
+  border: none;
+  padding: 0px 10px;
+  height: auto;
+  margin-left: 10px;
+  border-left: 1px solid #000;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+.login-wrapper .form-wrapper .btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.login-wrapper .form-wrapper .social-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.login-wrapper .form-wrapper .social-icon-wrapper .fb-circle {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background: #415a94;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.login-wrapper .form-wrapper .social-icon-wrapper .fb-circle svg path {
+  fill: #FFF;
+}
+
+.login-wrapper .form-wrapper .social-icon-wrapper .tw-circle {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background: #4d9eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.login-wrapper .form-wrapper .social-icon-wrapper .tw-circle svg path {
+  fill: #FFF;
+}
+
+.login-wrapper .form-wrapper .social-icon-wrapper .g-circle {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background: #d54c3c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.login-wrapper .form-wrapper .social-icon-wrapper .g-circle svg path {
+  fill: #FFF;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.component-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.component-wrapper .sidebar-container {
+  width: 17%;
+  border-right: 1px solid #e7e7e7;
+  background: #073149;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: fixed;
+  left: 0;
+  z-index: 99999;
+}
+
+.component-wrapper .sidebar-container ul {
+  padding: 0;
+}
+/*# sourceMappingURL=App.css.map */
